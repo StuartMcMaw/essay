@@ -1,0 +1,126 @@
+
+body{
+            width: 85%;
+            max-width:750px;
+            min-width: 320px;
+            font-size: 100%; 
+            font-family: 'helvetica';
+            margin: auto;
+    font-family: 'Arimo', sans-serif;
+            background: url(../images/grid.png) repeat;}
+            line-height: 2em;}
+
+/* ------------- TYPOGRAPHY --------------- */
+
+ h1, h2, h3 {
+        font-weight: normal;
+        color: coral;
+        text-align: center;
+        line-height: 10em:}
+
+
+h1 {font-size: 3.375em;
+    color: darkgray;
+    text-align: center;
+    line-height: 1.3em}
+    
+    h2 {font-size: 2.25em;
+        padding: 10px 0 0 0;
+    color: darkgray;
+        text-align: center;
+    padding-bottom: 0.5em}
+    
+    h3 {font-size: 1.5em;}
+
+
+p{
+    padding: 5px 10px 0 5px;
+    color: coral;
+}
+
+section{
+     background-color: rgba(0, 0, 0, 1);
+    text-align: left;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+article{
+    width: 100%;
+    background-color: coral;
+    border-radius: 25px;
+    
+
+
+
+}
+
+blockquote{
+    
+    padding: 1em;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin:  0;
+    text-indent: -13px;
+    color: darkgray;
+    text-align: center;
+}
+
+footer{
+    line-height: 1.2em;
+    font-size: 15px;
+    padding-bottom: 1em;
+text-align: left;
+}
+
+
+
+
+
+
+
+/* --------------- IMAGES ------------------ */
+
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0 5px 5px 0;
+    max-width: 80%;
+border-radius: 15px;}
+
+
+
+
+
+
+/* ------------- LINKS --------------- */
+
+a{
+    color: darkgray;
+    text-decoration: none;
+    text-transform: uppercase;}
+
+a:hover{
+    color: coral;
+    border-bottom: 1px;}
+
+
+/* ------------- NAV ----------------- */
+
+nav {
+    
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+    padding: 10px;}
+
+nav ul{
+    text-align: center;
+    letter-spacing: 5px;}
+
+nav ul li {
+    display: inline;
+    margin: 1px;}
